@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+  <head>
+    <title>My Blog Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>My Blog Website</h1>
+    </header>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="blog.html">Blogs</a>
+      <a href="#">Contact</a>
+    </nav>
+
+    <div class="container">
+      <h2>Latest Blogs</h2>
+
+      <div class="blog-container">
+        <div class="blog-card">
+          <h3>Web Development</h3>
+          <p>Learn HTML, CSS and JavaScript fundamentals.</p>
+          <button class="btn">Read More</button>
+        </div>
+
+        <div class="blog-card">
+          <h3>Node.js Basics</h3>
+          <p>Learn backend development using Node.js.</p>
+          <button class="btn">Read More</button>
+        </div>
+
+        <div class="blog-card">
+          <h3>CSS Designing</h3>
+          <p>Create beautiful user interfaces using CSS.</p>
+          <button class="btn">Read More</button>
+        </div>
+      </div>
+
+      <form id="blogForm">
+        <h2>Add Blog</h2>
+
+        <input type="text" id="title" placeholder="Enter Blog Title" />
+
+        <input type="email" id="email" placeholder="Enter Email" />
+
+        <textarea
+          id="content"
+          rows="5"
+          placeholder="Enter Blog Content"
+        ></textarea>
+
+        <button class="btn" type="submit">Submit</button>
+
+        <p id="message"></p>
+      </form>
+    </div>
+
+    <footer>
+      <p>© 2026 My Blog Website</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
